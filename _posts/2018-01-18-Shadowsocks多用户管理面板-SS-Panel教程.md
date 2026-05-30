@@ -124,6 +124,3 @@ $salt 不可随意修改！
 在`域名/admin`登陆
 
 后台操作教程[逗逼根据地](https://doub.io/ss-jc15/)
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[Shadowsocks多用户管理面板——SS-Panel教程](http://www.wunail.com/archives/639)！		      
-
-			[喜欢 (61)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

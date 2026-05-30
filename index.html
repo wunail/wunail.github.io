@@ -1,4 +1,93 @@
 ---
-layout: home
-author_profile: true
+layout: none
 ---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 40px 0; background: #fff; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        header h1 { font-size: 2em; margin-bottom: 10px; }
+        header p { color: #666; }
+        .post-item { background: #fff; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .post-item h2 { margin-bottom: 8px; }
+        .post-item h2 a { color: #333; text-decoration: none; }
+        .post-item h2 a:hover { color: #0366d6; }
+        .post-meta { color: #666; font-size: 0.9em; margin-bottom: 10px; }
+        .post-meta .category { margin-left: 10px; }
+        .post-excerpt { color: #555; margin-bottom: 10px; }
+        .post-tags .tag { background: #e1e8ed; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; margin-right: 5px; }
+        .pagination { text-align: center; padding: 20px 0; }
+        .pagination a, .pagination span { display: inline-block; padding: 8px 16px; margin: 0 4px; background: #fff; border-radius: 4px; text-decoration: none; color: #333; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .pagination a:hover { background: #0366d6; color: #fff; }
+        .pagination .current { background: #0366d6; color: #fff; }
+        .pagination .disabled { color: #ccc; cursor: not-allowed; }
+        footer { text-align: center; padding: 20px; color: #666; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+        </header>
+
+        {% for post in paginator.posts %}
+        <article class="post-item">
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <div class="post-meta">
+                <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+                {% if post.category %}<span class="category">📂 {{ post.category }}</span>{% endif %}
+            </div>
+            <p class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 150 }}</p>
+            <div class="post-tags">
+                {% for tag in post.tags %}
+                <span class="tag">#{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </article>
+        {% endfor %}
+
+        {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+            {% if paginator.previous_page %}
+                {% if paginator.previous_page == 1 %}
+                <a href="{{ '/' | relative_url }}">« 上一页</a>
+                {% else %}
+                <a href="{{ paginator.previous_page_path | relative_url }}">« 上一页</a>
+                {% endif %}
+            {% else %}
+                <span class="disabled">« 上一页</span>
+            {% endif %}
+
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                <span class="current">{{ page }}</span>
+                {% elsif page == 1 %}
+                <a href="{{ '/' | relative_url }}">{{ page }}</a>
+                {% else %}
+                <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}">{{ page }}</a>
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}">下一页 »</a>
+            {% else %}
+            <span class="disabled">下一页 »</span>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <footer>
+            <p>📝 文章总数：{{ site.posts.size }}</p>
+            <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+        </footer>
+    </div>
+</body>
+</html>

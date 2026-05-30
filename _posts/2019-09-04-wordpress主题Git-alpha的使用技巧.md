@@ -52,7 +52,3 @@ category: 未分类
 提示：如果缩略图不显示，浏览器右键，将缩略图图片新标签打开就可以发现问题所在了
 
 ### 修改头部文字 logo 字体
-
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[wordpress主题Git-alpha的使用技巧](http://www.wunail.com/archives/690)！		      
-
-			[喜欢 (9)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

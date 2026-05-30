@@ -39,3 +39,6 @@ sed -i 's/,scandir//g' /usr/local/php/etc/php.ini
 ```
 
 转载 [逗比](https://www.dou-bi.co/dbrj-2/)
+**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[Directory Lister目录列表程序](http://www.wunail.com/archives/251)！		      
+
+			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

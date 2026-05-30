@@ -63,6 +63,3 @@ service iptables restart  #重启防火墙
 类似于top一样的流量检测工具  [iftop](https://linux.cn/article-1843-1.html)
 
  [另一种](https://jeffhughlee.blogspot.jp/2017/03/shadowsocks.html)
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[Linux 使用iptables进行shadowsocks流量统计](http://www.wunail.com/archives/355)！		      
-
-			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

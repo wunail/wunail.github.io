@@ -1,67 +1,20 @@
-# Site Settings
-title: "想飞的鱼"
-subtitle: "一个热爱技术的程序员的个人博客"
-name: "想飞的鱼"
-description: "分享编程、Linux、服务器、树莓派等技术文章"
-author:
-  name: "wunail"
-  bio: "热爱技术，热爱生活"
-  links:
-    - label: "GitHub"
-      icon: fab fa-github
-      url: "https://github.com/wunail"
+title: "我的博客"
+description: "一个热爱技术的程序员的个人博客，分享编程、Linux、AI 等技术文章"
+author: "wunail"
 
 url: "https://wunail.github.io"
 baseurl: ""
-permalink: /:categories/:title/
 
-# Theme
-theme: minimal-mistakes-jekyll
-
-# Build Settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:title/
 
-# Plugins
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
 
-# Pagination
 paginate: 10
 paginate_path: "/page:num/"
 
-# Minimal Mistakes Settings
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
-      toc: true
-      toc_label: "目录"
-      toc_sticky: true
-
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-
-# Exclude
-exclude:
-  - node_modules/
-  - vendor/
-  - Gemfile.lock
-
-# Analytics (可选，之后配置)
-# analytics:
-#   provider: google
-#   google:
-#     tracking_id: UA-XXXXXXXX-X
+lang: "zh-CN"

@@ -16,6 +16,7 @@ permalink: /:title/
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
 
 # 分页设置
 paginate: 10

@@ -306,3 +306,6 @@ service iptables save
 一个新的面板  还没看 应该会不错吧  先收藏
 
 [ssrpeanl](https://github.com/ssrpanel/SSRPanel)
+**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[ss-panel-v3-mod安装 （前端）](http://www.wunail.com/archives/645)！		      
+
+			[喜欢 (2)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

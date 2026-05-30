@@ -258,6 +258,3 @@ iptables-save > /etc/sysconfig/iptables
 参考
 
 [逗逼根据地](https://doub.io/ss-jc14/)
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[ShadowsocksR 多用户版服务端安装教程（SS-Panel后端）](http://www.wunail.com/archives/632)！		      
-
-			[喜欢 (26)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

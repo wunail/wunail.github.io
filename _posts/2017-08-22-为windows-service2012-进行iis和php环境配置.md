@@ -34,6 +34,3 @@ category: 未分类
 在“Web 服务器角色 (IIS)”页面上，单击“下一步”。
 
 在“选择角色服务” 页上，注意默认情况下安装的预先选择的角色服务，然后单击“下一步”。
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[为windows service2012 进行iis和php环境配置](http://www.wunail.com/archives/361)！		      
-
-			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

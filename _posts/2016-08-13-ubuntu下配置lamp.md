@@ -39,6 +39,3 @@ sudo apt-get install php5
 ```
 
 （因为之前我先安装了php所以在安装apache后配置出了些问题，看明天能不能解决，不能解决的话只能重新再来了）
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[ubuntu下配置lamp](http://www.wunail.com/archives/58)！		      
-
-			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

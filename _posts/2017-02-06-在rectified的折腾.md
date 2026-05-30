@@ -177,3 +177,6 @@ git pull
   -h，–help显示此帮助消息并退出
 
  python mujson_mgr.py -a -p 9002 -k 9002 -O origin(协议) -o plain(混淆)
+**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[在rectified的折腾](http://www.wunail.com/archives/282)！		      
+
+			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

@@ -21,9 +21,6 @@ permalink: /:categories/:title/
 # Build Settings
 markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
 
 # Plugins
 plugins:

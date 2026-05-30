@@ -117,6 +117,3 @@ vi /etc/rc.local
 其他的优化方案：https://doub.io/ss-jc26/#三、优化Shadowsocks
 
 转载    [逗逼](https://doub.io/ss-jc40/)
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[Shadowsocks利用 Socat 实现中继(中转/端口转发)加速](http://www.wunail.com/archives/488)！		      
-
-			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

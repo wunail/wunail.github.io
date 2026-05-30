@@ -58,3 +58,6 @@ lxterminal &
 
 重启之后，我们就可以用RealVNC软件登录桌面环境，地址可以用ip:5901登录，密码是我们上面设置的VNC密码。
 第七、安装支持简体中文
+**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[debian服务器 使用  vnc](http://www.wunail.com/archives/204)！		      
+
+			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

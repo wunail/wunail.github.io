@@ -1,5 +1,4 @@
 # Remote Theme
-remote_theme: mmistakes/minimal-mistakes
 
 # Site Settings
 title: "想飞的鱼"
@@ -24,7 +23,6 @@ highlighter: rouge
 
 # Plugins
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed

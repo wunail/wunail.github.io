@@ -136,3 +136,6 @@ s3cmd du -H s3://my-bucket-name
 [s3cmd 中文帮助](http://www.yunvm.com/blog/static/archives/48069)
 
 [s3cmd 安装使用指南](http://blog.csdn.net/pkufergus/article/details/50034309)
+**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[digitalocean使用space 并同步](http://www.wunail.com/archives/513)！		      
+
+			[喜欢 (0)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

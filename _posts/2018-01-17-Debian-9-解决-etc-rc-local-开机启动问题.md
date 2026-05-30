@@ -60,3 +60,6 @@ Aug 03 09:41:18 xtom-proxy systemd[1]: Started /etc/rc.local Compatibility.
 然后你就可以把需要开机启动的命令添加到`/etc/rc.local`文件，丢在 exit 0 前面即可，并尝试重启以后试试是否生效了
 
 参考[烧饼博客](https://sb.sb/debian-9-rc-local/)
+**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[Debian 9 解决 /etc/rc.local 开机启动问题](http://www.wunail.com/archives/628)！		      
+
+			[喜欢 (1)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)

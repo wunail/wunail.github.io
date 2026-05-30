@@ -48,6 +48,3 @@ screen -r t       #列出正在运行的t
 这样以后通过SSH编译内核之类的长时间工作时，再也不怕因为断网造成的操作中断了。
 
 在任何linux设备上都能安装Screen，操作也是一样的
-**鸿鹄博客 , 版权所有丨如未注明 , 均为原创丨本网站采用[BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)协议进行授权 , 转载请注明[树莓派使用虚拟终端Screen,不再惧怕SSH中断](http://www.wunail.com/archives/220)！		      
-
-			[喜欢 (1)](javascript:;)赏[aa@qq.com]![](http://www.wunail.com/wp-content/uploads/2016/08/zfb.jpg)**分享 (0)[](#)[](#)[](#)[](#)[](#)[](#)[](#)
